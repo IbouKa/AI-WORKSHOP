@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>*</members>
-		<name>Prompt</name>
+		<members>Experience_Record_Page</members>
+		<name>FlexiPage</name>
 	</types>
-	<version>60.0</version>
+	<types>
+		<members>Generate_Experience_Description</members>
+		<name>GenAiPromptTemplate</name>
+	</types>
+	<version>62.0</version>
 </Package>
